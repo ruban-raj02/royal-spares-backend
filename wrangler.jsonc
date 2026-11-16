@@ -1,0 +1,10 @@
+
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "royal-spares",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-16",
+  "observability": {
+    "enabled": true
+  }
+}
