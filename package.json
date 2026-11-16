@@ -1,0 +1,30 @@
+{
+  "name": "royal-spares-backend",
+  "version": "1.0.0",
+  "description": "Royal Enfield spare parts data standardization pipeline",
+  "type": "module",
+  "main": "batchProcessor.mjs",
+  "scripts": {
+    "start": "node batchProcessor.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^3.3.0",
+    "@supabase/supabase-js": "^2.119.0",
+    "ajv": "^8.20.0",
+    "axios": "^1.21.1",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.3.0",
+    "html-to-text": "^10.0.1"
+  },
+  "devDependencies": {
+    "wrangler": "^4.163.0"
+  }
+}
